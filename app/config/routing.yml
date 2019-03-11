@@ -1,0 +1,15 @@
+usuarios:
+    resource: "@usuariosBundle/Resources/config/routing.yml"
+    prefix:   /
+
+home:
+    resource: "@homeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+cv:
+    resource: "@cvBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
