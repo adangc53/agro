@@ -8,7 +8,7 @@ home:
 
 cv:
     resource: "@cvBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /cv
 
 app:
     resource: "@AppBundle/Controller/"
